@@ -99,7 +99,6 @@
 (2)函数move(int n ,char N ,char M)的功能是把1编号为n的圆盘从N 移到M上
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g11klkh3t9j30fj042750.jpg)
 ### 7.程序运行截图
-
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g11km0b906j30dq076abk.jpg)
 本文转载自[汉诺塔的图解递归算法](https://dmego.me/2016/10/16/hanoi.html)
 
