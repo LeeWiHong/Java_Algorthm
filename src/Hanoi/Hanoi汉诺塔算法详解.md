@@ -57,7 +57,7 @@ import java.util.Scanner;
 public class TowersOfHanoi {
     static int m =0;//标记移动次数
     //实现移动的函数
-    public static void move(int disks,char N,char M)
+    public  static void move(int disks,char N,char M)
     {
         System.out.println("第" + (++m) +" 次移动 : " +" 把 "+ disks+" 号圆盘从 " + N +" ->移到->  " + M);
     }
