@@ -4,6 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
          Hanoi hanoi = new Hanoi();
-         hanoi.hanoimove(5,'A','B','C');
+         hanoi.hanoimove(3,'A','B','C');
     }
 }
