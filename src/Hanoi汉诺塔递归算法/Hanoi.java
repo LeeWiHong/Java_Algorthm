@@ -1,4 +1,4 @@
-package Hanoi;
+package Hanoi汉诺塔递归算法;
 
 /**
 * @program: 汉诺塔算法实现

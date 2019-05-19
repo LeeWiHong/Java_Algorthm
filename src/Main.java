@@ -1,4 +1,4 @@
-import Hanoi.Hanoi;
+import Hanoi汉诺塔递归算法.Hanoi;
 
 public class Main {
 
