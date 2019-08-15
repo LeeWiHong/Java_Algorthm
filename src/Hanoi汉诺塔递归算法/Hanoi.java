@@ -1,5 +1,7 @@
 package Hanoi汉诺塔递归算法;
 
+import org.junit.jupiter.api.Test;
+
 /**
 * @program: 汉诺塔算法实现
 *
@@ -15,6 +17,8 @@ public class Hanoi {
     public void move(int nums,char disk1,char disk2){
         System.out.println("这是第"+(++this.sum)+"次移动"+"把"+nums+"号盘从"+disk1+"移动到"+disk2);
     }
+
+    @Test
     public void hanoimove(int n,char disk1,char disk2,char disk3){
         if (n == 1){
             this.move(1,disk1,disk3);
