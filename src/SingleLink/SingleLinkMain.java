@@ -9,6 +9,8 @@ public class SingleLinkMain {
         singleLink.addLink("赵云");
         singleLink.addLink("韩信");
         singleLink.printLink();
+        System.out.println(singleLink.findLinkNode("鲁班")+"cccc");
+
 
     }
 }

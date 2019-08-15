@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f977be1-4516-47ef-bf30-d6ec64cba804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java" afterDir="false" />
+    <list default="true" id="5f977be1-4516-47ef-bf30-d6ec64cba804" name="Default Changelist" comment="20190815链表学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Algorthm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Algorthm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Algorthm/Hanoi/Hanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Algorthm/Hanoi/Hanoi汉诺塔算法详解.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Algorthm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Algorthm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hanoi汉诺塔递归算法/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hanoi汉诺塔递归算法/Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleLink单向链表/SingleLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLink/SingleLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleLink单向链表/SingleLinkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLink/SingleLinkNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleLink单向链表/SingleLink单向链表算法详解.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLink/SingleLink单向链表算法详解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleLink/SingleLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLink/SingleLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,13 +39,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Hanoi汉诺塔算法详解" value="1" />
-          <entry key="java" value="19" />
+          <entry key="java" value="20" />
           <entry key="md" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="20" />
           <entry key="Markdown" value="10" />
         </counts>
       </usages-collector>
@@ -61,36 +53,49 @@
         <counts>
           <entry key="Hanoi汉诺塔算法详解" value="30" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="1624" />
+          <entry key="java" value="2249" />
           <entry key="md" value="147" />
-          <entry key="txt" value="34" />
+          <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1624" />
+          <entry key="JAVA" value="2249" />
           <entry key="Markdown" value="177" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="-202">
+              <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLinkNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -127,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/SingleLink单向链表/SingleLinkNode.java" />
         <option value="$PROJECT_DIR$/src/SingleLink单向链表/SingleLinkMain.java" />
         <option value="$PROJECT_DIR$/src/SingleLink/SingleLinkNode.java" />
-        <option value="$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java" />
         <option value="$PROJECT_DIR$/src/SingleLink/SingleLink.java" />
+        <option value="$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java" />
       </list>
     </option>
   </component>
@@ -189,7 +194,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565858203058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565862404310" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -288,7 +293,7 @@
       <workItem from="1563440409288" duration="275000" />
       <workItem from="1564043883483" duration="144000" />
       <workItem from="1565836225527" duration="4306000" />
-      <workItem from="1565857077269" duration="907000" />
+      <workItem from="1565857077269" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="初始化md文件">
       <created>1552489176607</created>
@@ -318,7 +323,35 @@
       <option name="project" value="LOCAL" />
       <updated>1558278561898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20190815汉诺塔学习">
+      <created>1565858188614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858188614</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20190815链表学习">
+      <created>1565858200666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858200666</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20190815链表学习">
+      <created>1565858212597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858212597</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20190815链表学习">
+      <created>1565858218188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858218188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -327,7 +360,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16649000" />
+    <option name="totallyTimeSpent" value="20512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="0" />
@@ -342,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30377668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,7 +384,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32840723" />
       <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -378,7 +411,9 @@
     <MESSAGE value="初始化md文件" />
     <MESSAGE value="汉诺塔算法详解参考博客" />
     <MESSAGE value="20190519链表学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190519链表学习" />
+    <MESSAGE value="20190815汉诺塔学习" />
+    <MESSAGE value="20190815链表学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190815链表学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,28 +503,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="133">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingleLink/SingleLinkMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="-202">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

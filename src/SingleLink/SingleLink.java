@@ -9,11 +9,17 @@ public class SingleLink {
         HeadNode = null;
         length = 0;
     }
-//    添加结点
+//
+    public int getLength() {
+        return length;
+    }
+
+    //    添加结点
     public void addLink(String nodeStr){
         System.out.println("添加结点--"+nodeStr);
         if (HeadNode == null){
             HeadNode = new SingleLinkNode(nodeStr);
+            length = length + 1;
         }
         else {
             System.out.println("fdad--");
@@ -24,8 +30,43 @@ public class SingleLink {
                 temp = temp.getNext();
             }
             temp.setNext(newNode);
+            length ++;
         }
+    }
 
+//    删除结点
+    public void delLinkNode(String deldata){
+        SingleLinkNode p = HeadNode;
+        if (p.getNext() != null){
+
+        }else {
+            if (p.getData().equals(deldata)){
+                HeadNode = null;
+            }else {
+                System.out.println("结点不在链表中...");
+            }
+        }
+    }
+
+//    查找结点
+    public boolean findLinkNode(String nodedata){
+        SingleLinkNode p = HeadNode;
+        if (p == null){
+            return false;
+        }else {
+            if (p.getData().equals(nodedata)){
+                return true;
+            }
+            else {
+                while (p.getNext() != null){
+                    if (p.getData().equals(nodedata)){
+                        return true;
+                    }
+                    p = p.getNext();
+                }
+                return false;
+            }
+        }
     }
 
 //    输出链表数据
