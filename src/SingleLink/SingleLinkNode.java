@@ -1,12 +1,14 @@
-package SingleLink单向链表;
+package SingleLink;
 
 public class SingleLinkNode {
 //    节点数据
     private String data;
 //    后继节点指针
     private SingleLinkNode next;
+
     public SingleLinkNode(String data){
         this.data = data;
+        this.next = null;
     }
 
     public String getData() {
