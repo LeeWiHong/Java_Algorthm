@@ -1,5 +1,7 @@
 package SingleLink;
 
+import org.omg.CORBA.portable.Delegate;
+
 public class SingleLink {
     public SingleLinkNode HeadNode;
     public int length;
@@ -22,7 +24,6 @@ public class SingleLink {
             length = length + 1;
         }
         else {
-            System.out.println("fdad--");
             SingleLinkNode newNode = new SingleLinkNode(nodeStr);
             SingleLinkNode temp = HeadNode;
 //            每次添加都要通过头结点往后查找是否到了最后一个空结点然后就设置next为当前新建的node
@@ -35,17 +36,52 @@ public class SingleLink {
     }
 
 //    删除结点
-    public void delLinkNode(String deldata){
+    public boolean delLinkNode(String deldata){
         SingleLinkNode p = HeadNode;
-        if (p.getNext() != null){
-
-        }else {
-            if (p.getData().equals(deldata)){
-                HeadNode = null;
-            }else {
-                System.out.println("结点不在链表中...");
+        SingleLinkNode temp = p;
+//        如果链表长度超过1则执行while循环而不会去执行下面的if判断
+        while (temp.getNext() != null){
+            if (temp.getData().equals(deldata)){
+//                如果是第一个结点则headnode后移一个
+                if (temp == HeadNode){
+                    temp = temp.getNext();
+                    p = temp;
+                    HeadNode = p;
+                    System.out.println("结点删除成功...");
+                    return true;
+                }else {
+                    temp = temp.getNext();
+                    p.setNext(temp);
+                    System.out.println("结点删除成功...");
+                    return true;
+                }
             }
+            else {
+                temp = temp.getNext();
+            }
+//            temp = temp.getNext();
         }
+
+
+//        如果链表长度为1那么上面的while循环是不会执行的
+        if (temp.getData().equals(deldata)){
+            System.out.println("结点删除成功");
+            if (this.getLength() > 1){
+                p.setNext(temp.getNext());
+            }
+            else {
+                HeadNode = null;
+            }
+            return true;
+        }
+        else {
+            System.out.println("链表中没有当前结点删除失败...");
+            return false;
+        }
+
+
+
+
     }
 
 //    查找结点
